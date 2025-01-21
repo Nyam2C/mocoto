@@ -18,7 +18,7 @@ function Header() {
                         국두두
                     </button>
                 </div>
-                <div className="flex flex-row justify-center font-inter font-bold leading-[21px] text-center px-[10px] gap-[25px] min-w-[800px] h-[40px] text-[13.75px] text-[#76767A]">
+                <div className="flex flex-row justify-center font-inter font-bold leading-[21px] text-center px-[10px] gap-[25px] min-w-[600px] h-[40px] text-[13.75px] text-[#76767A]">
                     <div className="flex flex-row justify-center items-center gap-[35px] w-[184px] h-[45px]">
                         <button
                             onClick={() => {
