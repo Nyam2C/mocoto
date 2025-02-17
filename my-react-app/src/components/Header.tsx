@@ -65,17 +65,4 @@ function Header() {
     );
 }
 
-function App() {
-    return (
-        <Router>
-            <Header />
-            <Routes>
-                <Route path="/home" element={<div className="p-4"></div>} />
-                <Route path="/exchange" element={<div className="p-4"></div>} />
-                <Route path="/account" element={<div className="p-4"></div>} />
-            </Routes>
-        </Router>
-    );
-}
-
-export default App;
+export default Header;
